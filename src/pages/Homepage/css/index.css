@@ -1,0 +1,377 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    
+    font-weight: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    float: left;
+    display: table;
+}
+.logo h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5rem;
+}
+
+.header-nav{
+  width: 100%;
+  height: 60px;
+  display: block;
+  background-color:#846ff7;
+}
+
+
+
+.navigation{
+    float: right;
+    cursor: pointer;
+    height: 100%;
+    color:white;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* @media only screen and (min-width:700px) {
+  .navigation{width:8.3%;}
+} */
+
+
+
+.navigation li{
+    float: left;
+    height: 100%;
+    margin: 5px;
+    display: table;
+    padding: 0 10px;
+    vertical-align: center;
+    color: #fff;
+   
+}
+/*herosection*/
+.container{
+ width: 100%;
+ height: 100vh;
+ /* background-color:rgb(240, 234, 234); */
+ padding: 0 4%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: relative;
+ flex:1px;
+}
+@media (max-width: 700px){
+  .container{
+    flex-direction: column-reverse;
+  }
+}
+  
+
+ .contents h1{
+    font-weight: 500px;
+    font-size: 3.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+   
+.container h4{
+    font-size: 1.3rem;
+    font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: left;
+   line-height: 30px;
+}
+.butt{
+    width: 100px;
+    background-color:white;
+    height: 40px;
+    color:    #846ff7 ;
+    font-size: 1.1rem;
+    border-color:#846ff7 ;
+    margin: 5px;
+    font-family: 
+    'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   
+}
+.buttt{
+    border: none;
+    background-color:#846ff7;
+    color: white;
+    margin: 5px;
+   width: 100px;
+    height: 40px;
+    font-size: 1.1rem;
+    font-weight: 600px;
+}
+
+
+.cont-img{
+    max-width: 550px;
+    height: 400px;
+}
+.cont-img img{
+   max-width: 100%;
+    height: 100%;
+    margin-right: 10%;
+}
+
+/*login page*/
+
+.log{
+    width: 100%;
+    height: 100vh;
+     background-color:white; 
+     font-weight: 600;
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+@media (max-width: 800px){
+  .log{
+    flex-direction: column;
+  }
+}
+.password-pic{
+    width: 600px;
+    height: 500px;
+    
+}
+.password-pic img{
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+  }
+  
+  .login-form {
+    background-color: #ffffff;
+    padding: 20px;
+   justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(94, 94, 94, 0.6);
+    max-width: 600px;
+    font-family: Tahoma, Geneva, Verdana, 'sans-serif';
+   
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 8px;
+
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    color:#846ff7;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    
+  }
+  
+  .login-form button {
+    background-color: #846ff7;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  
+
+  /*Missing grade*/
+
+  .center{
+   
+    background:transparent;
+
+  }
+
+
+  .missing{
+    background-color: #846ff7;
+  }
+/*Frequently Asked Questions*/
+.contain{
+  width: 100%;
+  height:100%;
+justify-content:center; 
+position: relative;
+display: flex;
+margin-top:10% ;
+}
+
+.card{
+  height: 300px;
+  width:350px;
+  margin: 10px 10px;
+  padding: 10px ;
+  background-color: rgb(235, 234, 234);
+  overflow: hidden;
+}
+.questions{
+  text-align: center;
+
+}
+.loginn-form {
+  background-color: #ffffff;
+  padding: 20px;
+ justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(94, 94, 94, 0.6);
+  width: 400px;
+  height: 500px;
+  margin-left: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.loginn-form h2 {
+  margin-bottom: 13px;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loginn-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 300;
+
+}
+
+.loginn-form input {
+  width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    color:#846ff7;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    
+}
+
+.loginn-form button {
+  background-color: #846ff7;
+  color: #ffffff;
+  padding: 10px;
+  border: solid;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+textarea {
+    height: 70px;
+    width: 350px;
+}
+
+/*Footer*/
+.page-footer{
+  color: white;
+  width: 100%;
+  background-color: #846ff7;
+  height: 30%; 
+  padding: 20px 20px 10px;
+
+
+
+}
+.foot{
+   font-weight: 400;
+   background-color: #ffffff;
+   color: #846ff7;
+  /* margin-bottom: 10px; */
+  margin: 5px;
+  padding: 1px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.foot p{
+  margin: 10px;
+}
+
+.socials{
+justify-content: center;
+display: flex;
+
+}
+
+.socials a{
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  color: #8f7ef1;
+  font-size: 1rem;
+  /* opacity:0.5 ; */
+  
+}
+.socials a:hover{
+  color:white ;
+  background-color: #846ff7;
+  transition: 0.5s;
+
+}
+
+.footer-nav{
+margin: 30px 0;
+}
+
+.footer-nav ul{
+  display: flex;
+  text-align: center;
+justify-content: center;
+}
+
+.footer-nav ul li{
+  text-align: center;
+  justify-content: center;
+  opacity: 0.6px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 10px;
+}
+
+@media(max-width: 400px){
+  .footer-nav ul{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+  .footer-nav ul li{
+    text-align: center;
+    width: 100px;
+    margin:20px;
+  }
+}
