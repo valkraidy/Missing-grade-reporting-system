@@ -14,15 +14,15 @@ import { MdQuiz } from "react-icons/md";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { MdStarRate } from "react-icons/md";
 import { FaRProject } from "react-icons/fa";
+import { IoNotificationsOutline } from "react-icons/io5"
 
-import  { useAuth0 } from '@auth0/auth0-react';
+// import  { useAuth0 } from '@auth0/auth0-react';
 
 import Footer from "./Footer";
 
 const Dashboard = () => {
 
-  const {loginWithRedirect ,isAuthenticated} = useAuth0();
-  // isAuthenticated;
+ 
 
   return (
     <div>
@@ -77,16 +77,7 @@ const Dashboard = () => {
                 <i>
                   <FiLogOut />
                 </i>
-                <span> 
-                  {
-
-                !isAuthenticated && (
-
-                  <button type="submit" onClick={() => loginWithRedirect()}> 
-                    Logout</button>
-                    )
-                }
-                  </span>
+                
              
               
               </a>
@@ -111,6 +102,12 @@ const Dashboard = () => {
                 </i>
                 <input type="text" name="" placeholder="search" value="" />
               </div>
+              <div>
+              <i className="notify">
+              <IoNotificationsOutline />
+              </i>
+              </div>
+              
               <img src="src/images/profile.jpg" alt="profile picture" />
             </div>
           </div>
